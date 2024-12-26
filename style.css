@@ -90,3 +90,25 @@ img{
     width: 10cm;
     height: 10cm;
 }
+
+@media (max-width: 576px){
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    
+        height: 100svh; 
+    }
+    
+    .hero .kiri{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .kanan{
+        display: flex;
+    }
+}
