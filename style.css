@@ -92,6 +92,11 @@ img{
 }
 
 @media (max-width: 576px){
+    img{
+        width: 7cm;
+        height: 7cm;
+    }
+
     .hero{
         display: flex;
         flex-direction: column-reverse;
