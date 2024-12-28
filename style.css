@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 body{
-    background-image: linear-gradient(rgb(61, 0, 87),black);
+    background-image: url('sur.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     font-family: "Quicksand", serif;
 }
