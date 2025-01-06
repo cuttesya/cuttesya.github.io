@@ -2,11 +2,11 @@
 
 body{
     /* background-image: url('sur.jpg'); */
-    background: rgb(130,83,153);
-    background: linear-gradient(0deg, rgba(130,83,153,1) 0%, rgba(77,5,98,1) 100%);
+    background: rgb(23,4,32);
+    background: linear-gradient(0deg, rgb(117, 43, 196) 0%, rgba(0,0,0,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: "Quicksand", serif;
 }
 
@@ -90,8 +90,8 @@ ul, li, a:hover{
 }
 
 img{
-    width: 10cm;
-    height: 10cm;
+    width: 9cm;
+    height: 9cm;
 }
 
 @media (max-width: 576px){
